@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(223, 219, 219);
+    margin: 0;
+    padding: 0;
+}
+
+.place-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.place-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.place-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.place-description {
+    font-size: 1em;
+    color: #555;
+    margin-top: 5px;
+}

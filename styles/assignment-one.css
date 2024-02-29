@@ -1,5 +1,5 @@
 .card {
-  background-color: #fff;
+  background-color:rgb(249, 241, 226);
   list-style-type: none;
   border-radius: 0.25rem;
   box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
@@ -23,13 +23,13 @@ transform: scale(1.03);
 .header-container h1 {
  text-align: center;
  font-size: 3rem;
- color:brown
+ color:darkblue
   
  }
  .header-container h2 {
   text-align: center;
-  font-size: 1.5rem;
-  color:darkgreen
+  font-size: 2rem;
+  color: rgb(180, 101, 5)
  }
 
 @media screen and (max-width: 768px) {
@@ -115,4 +115,22 @@ img {
 .header,
 .subheader {
   margin: 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; 
+  padding-top: 40px;
+  height: 0;
+  overflow: hidden;
+  margin: 60px; 
+  border: 1px solid #ccc; 
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
